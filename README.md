@@ -1,2 +1,2 @@
-# hodinov-_majster
+# hodinovy_majster
 simple responsive recreated web

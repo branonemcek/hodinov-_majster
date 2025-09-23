@@ -1,4 +1,20 @@
-/*===== MENU SHOW =====*/ 
+	function myFunction() {
+		var x = document.getElementById("nav-menu");
+			if (x.className === "nav__menu") {
+			x.className += " responsive";
+			} 
+			else {
+				x.className = "nav__menu";
+			}
+	}
+
+
+
+
+
+
+
+/*===== MENU SHOW 
 const showMenu = (toggleId, navId) =>{
 	const toggle = document.getElementById(toggleId),
 		nav = document.getElementById(navId)
@@ -14,7 +30,7 @@ const showMenu = (toggleId, navId) =>{
 showMenu('nav-toggle','nav-menu')
 
 
-/*===== REMOVE MENU MOBILE =====*/
+/*===== REMOVE MENU MOBILE
 const navLink = document.querySelectorAll('.nav__link')
 
 function linkAction()
@@ -29,3 +45,4 @@ function linkAction()
 }
 
 navLink.forEach(n => n.addEventListener('click', linkAction))
+=====*/ 

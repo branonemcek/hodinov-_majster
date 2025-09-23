@@ -618,8 +618,8 @@ img {
    .home__img
   {
     visibility: visible;
-    width: 230px;
-    height: 230px;
+    width: 250px;
+    height: 250px;
   }
 }
 
@@ -735,6 +735,10 @@ img {
     visibility: visible;
     width: 550px;
     height: 450px;
+  }
+
+  .menu__btn {
+    display: none;
   }
 
 }
